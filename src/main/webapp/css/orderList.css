@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+.orderFormMainDiv{
+	width: 100%;
+}
+.ordersubH,
+.orderH{
+	text-align: center;
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+}
+.orderMainTable{
+	text-align: center;
+	width: 70%;
+	margin: 0 auto;
+	border:1px solid black;
+}
+.orderAdd2,
+.orderAdd,
+.orderPost,
+.orderPhone,
+.orderEmail,
+.orderName{
+	padding: 2%;
+	text-align: end;
+	width: 200px;
+}
+.ordersubTitle{
+	text-align: center;
+	margin: 5%;
+}
+.ordersubTable{
+	text-align: center;
+	width: 70%;
+	margin: 0 auto;
+	border:1px solid black;
+}
+.orderPay{
+	text-align: center;
+}
+.orderInput{
+	text-align: initial;
+}
+#oListtable{
+	width: 100%;
+	border: 1px solid black;
+	margin-top: 30px;
+}
+.orderListTd{
+	width: 80px;
+}
+.orderListTh{
+	padding: 10px;
+}

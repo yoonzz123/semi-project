@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+html{
+	cursor:none;
+}
+a{
+	cursor:none;
+}
+.qnaTable{
+	width: 100%;
+}
+
+.qnaTitle{
+	border: 3px solid green;
+	border-radius: 50px;
+	background: gray;
+}
+
+.qnaList{
+	text-align: center;
+	
+}
+.qnaMain{
+	text-align: center;
+	margin: 50px;
+	font-size: 3rem;
+}
+.qnaRepeatNo,
+.qnaRepeatTitle,
+.qnaRepeatId,
+.qnaRepeatRdate{
+	border:3px solid green;
+	height: 50px;
+	
+}
+.footerMargin{
+	height: 70px;
+}
+.hand {
+	position: absolute;
+	left: -5px;
+	top: -5px;
+	width: 100px;
+	height: 100px;
+	background: url(../images/hand.png) no-repeat 0 0 / cover;
+	pointer-events: none;
+	z-index:1000;
+}
+.qnaWrite{
+	border: 1px solid black;
+	display: inline;
+    background: coral;
+}
+.mousedown .hand {
+	background-image: url(../images/hand2.png);
+}

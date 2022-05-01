@@ -1,0 +1,47 @@
+@charset "UTF-8";
+.title{
+	text-align:center;
+	margin: 50px;
+}
+.mem-Table{
+	
+	width: 700px;
+	margin: auto;
+	margin-bottom: 80px;
+	color: #333;
+	border-top: 2px solid black;
+}
+
+.mem-Tr{
+	display:flex;
+	border-bottom: 1px solid #666;
+	text-align:center;
+	justify-content: space-around;
+	padding: 10px 0px;
+}
+.mem-Td-id{
+	width: 50px;
+}
+.mem-Td-pass{
+	width: 50px;
+}
+.mem-Td-name{
+	width: 80px;
+}
+.mem-Td-phone{
+	width: 135px;
+}
+.mem-Td-email{
+	width: 150px;
+}
+.mem-Td-regdate{
+	width: 100px;
+}
+.mem-Td-delete{
+	width: 50px;
+}
+img {
+	width: 15px;
+	height: 15px;
+}
+

@@ -1,0 +1,21 @@
+@charset "UTF-8";
+#oListtable{
+	margin:auto;
+}
+.adminordertitle{
+	text-align:center;
+	font-size:50px;
+}
+.adminname{
+	text-align:center;
+	padding:5px;
+}
+.admincontent{
+	text-align:center;
+}
+.adminorder{
+	padding:2px;
+	width: 80px;
+	height:5px;
+	text-align:center;
+}

@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+.content{
+	text-align: center;
+}
+.qnaTable{
+	margin: 0 auto;
+}
+
+.qnaTitle,
+.qnaContent{
+	padding: 30px;
+}
+.qnaReplyTable{
+	margin: 0 auto;
+}
+#replyTable{
+	margin: 0 auto;
+}
+.replyTableTh{
+	width: 200px;
+}
+.qnabtn{
+	padding: 20px;
+}
+.qnaWriteArticle{
+	text-align: center;
+}
+.qnaWritebtn,
+.qnaWriteId,
+.qnaWriteTitle{
+	margin: 30px;
+}
+.qnaWriteFormWrap1{
+	margin:0 auto;
+	border:1px dashed blue;
+	width: 80%;
+}

@@ -1,0 +1,62 @@
+@charset "UTF-8";
+.body{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;	
+	padding-bottom: 50px;
+}
+.sub_header {
+	text-align : center;
+	margin: 70px 0px 50px;	
+}
+.content {
+	text-align: center;
+}
+.c_Title, .c_Date, .c_Content{
+	display: flex;
+	border-top : 1px solid #aaa;
+}
+.c_Title > div{
+	float: left;
+}
+.c_TitleTh, .c_DateTh{
+	width:20%;
+	padding: 10px;
+	border-right: 1px solid #aaa;
+	text-align: left;
+}
+.c_TitleTd, .c_DateTd {
+	padding: 10px;
+}
+.c_Content {
+	height: 100px;
+	width: 100%;
+	border-bottom: 1px solid #aaa;
+	color: #666;
+}
+.c_ContentTd{
+	padding: 20px;
+}
+.admin_write{
+	margin-left: 20px;
+}
+#nDelete { 
+	float: right;
+	margin: 10px 20px;
+	border: 1px solid #aaa; 
+	background-color: rgba(0,0,0,0); 
+	padding: 5px 10px; 
+}
+.nDelete:hover{
+	background-color: #e3e3e3;
+}
+.r-l-title{
+	padding: 10px;
+}
+textarea{
+	width: 100%;
+}
+
+
+
+

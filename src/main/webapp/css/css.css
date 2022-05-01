@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+.hidden {
+	display: none;
+}
+.show {
+	display: block;
+}
+
+.m-center {
+	margin: auto;
+}
+
+.bg-black {
+	background-color: black;
+}
+
+.bg-white {
+	background-color: white;
+}
+
+.padding-20 {
+	padding: 20px;
+}
+
+
+#wrap {
+	margin: auto;
+	max-width: 1000px;
+}
+
+.grid-2-box {
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-4-box {
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* 가입페이지 */
+.join-container {
+	margin: 0;
+	padding: 0;
+	font-family: montserrat;
+	background: #C9C8C8;
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+}
+
+.join-center {
+	position: absolute;
+	width: 800px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	background: white;
+	border-radius : 15px;
+	font-size: 16px;
+	font-family: montserrat;
+}
+
+.join-container h2{
+	text-align: center;
+	padding : 20px 0px 20px 0px;
+	border-bottom: 1px solid #BF2727;
+}
+
+.join-center table {
+	color: #adadad;
+	margin: auto;
+}
+
+/* 디테일페이지 */
+.product-item:hover {
+	background: #eee;
+}
+.faqTitle{
+	text-align: center;
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;  
+}
+
+.faqTitle1{
+	margin: 20px;
+	border-bottom: 1px solid green;
+}
+.faqMainDiv{
+	text-align: center;
+	border: 1px solid green;
+	border-radius: 15px;
+}
+.faqWriteDelete{
+	margin-top: 20px;
+	text-align:center;
+	border-bottom: 1px solid green;
+	border-radius: 15px;
+}
+.faqWriteA{
+	margin-top: 50px;
+	text-align:center;
+}
+
+.faqTime{
+	margin: 20px;
+}
+.faqWriteTable{
+	border:1px solid black;
+	width: 100%;
+}
+.faqWriteMain{
+	width: 100%;
+}
+.faqWriteSubmit{
+	text-align: center;
+}

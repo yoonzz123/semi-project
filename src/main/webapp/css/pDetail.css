@@ -1,0 +1,151 @@
+@charset "UTF-8";
+.pDetail {
+	width: 900px;
+	margin: auto;	
+}
+.main-title{
+	text-align: center;
+	margin: 70px 0px 50px;	
+}
+h6{
+	color: gray;
+}
+.product-item:hover {
+	background: #eee;
+}
+.lastHr{
+	color:#dcdcda;
+}
+.price,.Shipping,.Shipping_price{
+	font-weight: bold
+}
+grid-2-box{
+	display:flex;
+	flex-direction :row;
+	height: 300px;
+}
+.p-img{	
+	float: left;
+	width: 40%;
+	height: 300px;
+	margin: 5px;
+}
+.p-img > img{
+	width: 100%;
+	height: 300px;
+}
+.p-Info {
+	width: 55%;
+	height: 300px;
+	display: inline-block;
+	margin:10px auto;
+	padding-left: 60px;
+}
+.inof-Td {
+	display: inline-block;
+	width: 100px;
+	color: #222;
+}
+.p-name {
+	
+	padding: 20px 0px;
+}
+.p-n-sub{
+	padding: 10px 0px;
+}
+.p-detail{
+	text-align: center;
+	margin: 20px;
+}
+#btnOrder{
+	float: left;
+}
+#btnCart{
+	background: #fafafa;
+	padding: 13px 60px;
+	border: 1px solid #ddd;
+	margin: 15px 20px 10px;
+}
+#btnCart:hover{
+	background: #e9e9e9;
+	border: 1px solid #ddd;
+}
+#btnOrder{
+	background: #777;
+	padding: 13px 60px;
+	border: 1px solid #ddd;
+	margin: 15px 20px 10px 30px;
+	color: white;
+}
+#btnOrder:hover{
+	background: #aaa;
+	border: 1px solid #ddd;
+}
+
+#odQTY{
+	border: 1px solid #ddd;
+}
+.btn-admin{
+	background: #fafafa;
+	border: 1px solid #eee;
+}
+.btn-admin:hover{
+	background: #eee;
+	border: 1px solid #eee;
+}
+.r-writeTable{
+	padding: 5px;
+	border-top: 1px solid #aaa;
+}
+.r-toggle-btn{
+	text-align:right;
+	margin: 10px 10px 10px 800px;
+	color: #666;
+}
+.r-toggle-btn:hover{
+	color: #333;
+	font-size: bold;
+}
+.m-center{
+	border-bottom: 2px solid #aaa;
+	margin-bottom: 20px;
+}
+.r-Th {
+	text-align: left;
+	display:inline-block;
+	width: 100px;
+	margin: 5px;
+}
+.r-btn{
+	border: 1px solid #aaa;
+	color: #333;
+}
+.r-input{
+	border: 1px solid #aaa;
+}
+.r-list > *{
+	padding-left: 10px; 
+}
+.r-l-btn{
+	text-align:right;
+	margin: 10px 10px 10px 800px;
+	color: #666;
+	background: white;
+	border: none;
+}
+r-l-btn:hover{
+	color: #333;
+	font-size: bold;
+}
+.r-l-title{
+	margin:20px 37px 5px 0px;
+}
+.r-l-img > img{
+	margin-left: 10px;
+}
+p.r-l-content {
+	margin: 20px 10px;
+	
+}
+
+
